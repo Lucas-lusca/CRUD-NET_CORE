@@ -1,0 +1,31 @@
+@*  Aqui, declaramos o tipo de modelo que essa view ira trabalhar (Vai ser
+    dificil lembrar disso kk) *@
+@model IEnumerable<Resposta>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/lib/bootstrap5/dist/css/bootstrap.css">
+    <title>Enquete - resultado</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Enquete</h1>
+        <h2>Resultados:</h2>
+
+        @* Aqui, percorremos a coleção de resposta presente em model(o modelo passado para essa
+        view) e mostramos alguns valores de cada um *@
+        @foreach (Resposta r in Model)
+        {
+            <p>@(r.Nome): @(r.Sim.Value ? "Sim" : "Não")</p>
+        }
+
+        <p>
+            <a asp-action="Index" class="btn btn-primary">Voltar ao início</a>
+        </p>
+    </div>
+</body>
+</html>

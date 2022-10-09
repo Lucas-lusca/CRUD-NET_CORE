@@ -1,0 +1,60 @@
+@model Realizacao_Enquetes.Models.Resposta
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/lib/bootstrap5/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <title>Enquete - Responda</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="offset-3 col-6">
+                <h1>Responda a Enquete!</h1>
+                <h2>Esta gostando de responder este formulário?</h2>
+
+                <span>Primeiramente preencha estes campos com algumas informações suas:</span>
+                
+                @* Se o modelo desta view estiver com algum problema de validação
+                este codigo ira ser substituido por uma lista refente aos problemas. *@
+                <div asp-validation-summary="All"></div>
+
+                @* Lembre do method!! *@
+                <form method="POST">
+                    <div>
+
+                        @* Saiba mais sobre TagHelpers: https://learn.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-6.0
+                        asp-for , serve para alimentar a propriedade desejada no model desta view, isso 
+                        funciona por conta do Razor, que completa os campos nessessarios para nós. *@
+                        <label asp-for="Nome">Seu Nome</label><br>
+                        <input asp-for="Nome" class="form-control">
+                    </div>
+                    <div>
+                        <label asp-for="Nome">Seu Email</label><br>
+                        <input asp-for="Nome" class="form-control">
+                    </div>
+                    <div>
+                        Resposta:
+                        <div>
+                            @* Aqui, não podemos utiliar apenas o asp-for para completar os elementos
+                            label, já que são dois inputs para preecher uma propriedade, nesta ocasião
+                            podemos utilizalo para substituir o atributo name *@
+                            <input type="radio" id="rdSim" asp-for="Sim" value="true" class="form-check-input">
+                            <label for="rdSim" class="form-check-label">Sim</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="rdNao" asp-for="Sim" value="false" class="form-check-input">
+                            <label for="rdNao" class="form-check-label">Não</label>
+                        </div>
+                    </div>
+                    <input type="submit" value="Enviar Resposta" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
