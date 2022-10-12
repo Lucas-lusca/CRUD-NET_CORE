@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kHAkZzEi7hEu7L0DveJPly4e9nib5uWHFD4yqFe7nvabCatedMPh1VqReXMHE2Z3b5rSwIWQXZwDnjpN12lhPA==",
+  "dgSpecHash": "2BvZA98oZoqGqXNiRBBaj8eNePzlIs9Th454n7ckaZhLku1WoX9ScDmFynsRy7tlAlnRuikaZnyJbaXtgayO6A==",
   "success": true,
-  "projectFilePath": "D:\\WebCods\\EstudandoCS.NET\\Realizacao_Enquetes\\Realizacao_Enquetes.csproj",
+  "projectFilePath": "D:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\Realizacao_Enquetes.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

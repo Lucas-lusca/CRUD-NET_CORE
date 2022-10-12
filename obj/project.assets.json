@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WebCods\\EstudandoCS.NET\\Realizacao_Enquetes\\Realizacao_Enquetes.csproj",
+      "projectUniqueName": "D:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\Realizacao_Enquetes.csproj",
       "projectName": "Realizacao_Enquetes",
-      "projectPath": "D:\\WebCods\\EstudandoCS.NET\\Realizacao_Enquetes\\Realizacao_Enquetes.csproj",
+      "projectPath": "D:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\Realizacao_Enquetes.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "D:\\WebCods\\EstudandoCS.NET\\Realizacao_Enquetes\\obj\\",
+      "outputPath": "D:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config"
