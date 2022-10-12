@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\WebCods\\EstudandoCS.NET\\Realizacao_Enquetes\\Realizacao_Enquetes.csproj",
+  "FilePath": "d:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\Realizacao_Enquetes.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,33 +15619,33 @@
   "RootNamespace": "Realizacao_Enquetes",
   "Documents": [
     {
-      "FilePath": "d:\\WebCods\\EstudandoCS.NET\\Realizacao_Enquetes\\Views\\Home\\Resultado.cshtml",
-      "TargetPath": "Views\\Home\\Resultado.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\WebCods\\EstudandoCS.NET\\Realizacao_Enquetes\\Views\\Home\\Responder.cshtml",
+      "FilePath": "d:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\Views\\Home\\Responder.cshtml",
       "TargetPath": "Views\\Home\\Responder.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\WebCods\\EstudandoCS.NET\\Realizacao_Enquetes\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\WebCods\\EstudandoCS.NET\\Realizacao_Enquetes\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\WebCods\\EstudandoCS.NET\\Realizacao_Enquetes\\Views\\Home\\Obrigado.cshtml",
+      "FilePath": "d:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\Views\\Home\\Obrigado.cshtml",
       "TargetPath": "Views\\Home\\Obrigado.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\WebCods\\EstudandoCS.NET\\Realizacao_Enquetes\\Views\\_ViewImports.cshtml",
+      "FilePath": "d:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\Views\\Home\\Resultado.cshtml",
+      "TargetPath": "Views\\Home\\Resultado.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
