@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Template_Minimo_Views_Models.Models;
+using Realizacao_Enquetes.Models;
 
 // Presta atenção nisso aqui!!!
 // Durante o desenvolvimento, troquei o .Models por .Controller, isso me gerou alguns problemas.

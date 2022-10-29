@@ -15624,33 +15624,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\Views\\Home\\Responder.cshtml",
-      "TargetPath": "Views\\Home\\Responder.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\Views\\Home\\Obrigado.cshtml",
-      "TargetPath": "Views\\Home\\Obrigado.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "d:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\Views\\Shared\\_layout.cshtml",
-      "TargetPath": "Views\\Shared\\_layout.cshtml",
+      "FilePath": "d:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
       "FilePath": "d:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\Views\\Home\\Usuarios.cshtml",
       "TargetPath": "Views\\Home\\Usuarios.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\Views\\Home\\Resultado.cshtml",
-      "TargetPath": "Views\\Home\\Resultado.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Template_Minimo_Views_Models.Models
+namespace Realizacao_Enquetes.Models
 {
     public class Usuario
     {

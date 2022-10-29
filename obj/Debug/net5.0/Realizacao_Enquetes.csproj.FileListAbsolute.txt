@@ -106,9 +106,6 @@ D:\WebCods\EstudandoCS.NET\CRUD_asp.net\obj\Debug\net5.0\Realizacao_Enquetes.Tag
 D:\WebCods\EstudandoCS.NET\CRUD_asp.net\obj\Debug\net5.0\Realizacao_Enquetes.TagHelpers.output.cache
 D:\WebCods\EstudandoCS.NET\CRUD_asp.net\obj\Debug\net5.0\Realizacao_Enquetes.RazorCoreGenerate.cache
 D:\WebCods\EstudandoCS.NET\CRUD_asp.net\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-D:\WebCods\EstudandoCS.NET\CRUD_asp.net\obj\Debug\net5.0\Razor\Views\Home\Obrigado.cshtml.g.cs
-D:\WebCods\EstudandoCS.NET\CRUD_asp.net\obj\Debug\net5.0\Razor\Views\Home\Responder.cshtml.g.cs
-D:\WebCods\EstudandoCS.NET\CRUD_asp.net\obj\Debug\net5.0\Razor\Views\Home\Resultado.cshtml.g.cs
 D:\WebCods\EstudandoCS.NET\CRUD_asp.net\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 D:\WebCods\EstudandoCS.NET\CRUD_asp.net\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 D:\WebCods\EstudandoCS.NET\CRUD_asp.net\obj\Debug\net5.0\Realizacao_Enquetes.RazorTargetAssemblyInfo.cache
@@ -120,3 +117,6 @@ D:\WebCods\EstudandoCS.NET\CRUD_asp.net\obj\Debug\net5.0\Realizacao_Enquetes.pdb
 D:\WebCods\EstudandoCS.NET\CRUD_asp.net\obj\Debug\net5.0\Realizacao_Enquetes.genruntimeconfig.cache
 D:\WebCods\EstudandoCS.NET\CRUD_asp.net\obj\Debug\net5.0\Realizacao_Enquetes.csproj.CopyComplete
 D:\WebCods\EstudandoCS.NET\CRUD_asp.net\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\WebCods\EstudandoCS.NET\CRUD_asp.net\obj\Debug\net5.0\Razor\Views\Home\Cadastrar.cshtml.g.cs
+D:\WebCods\EstudandoCS.NET\CRUD_asp.net\obj\Debug\net5.0\Razor\Views\Home\Excluir.cshtml.g.cs
+D:\WebCods\EstudandoCS.NET\CRUD_asp.net\obj\Debug\net5.0\Razor\Views\Home\Usuarios.cshtml.g.cs
