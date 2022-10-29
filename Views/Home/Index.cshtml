@@ -1,8 +1,14 @@
-﻿<h1>Enquete</h1>
-<h2>Quer participar da enquete?</h2>
+﻿@{
+    @* Passando para a o layout o valor da variavel Subtitulo dessa view. *@
+    ViewBag.Subtitulo = "Principal";
+}
+
+<h1>CRUD com ASP.NET Core</h1>
+
+<h3 class="text-info">Usuários cadastrados: @ViewBag.QtdeUsuarios</h3>
 
 @* Saiba mais sobre TagHelpers: https://learn.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-6.0
 asp-action é um tag helper, que abre a ação responder do controlador
 desta view *@ 
-<a asp-action="Usuarios" class="btn btn-primary">Sim</a>
-<a asp-action="Cadastrar" class="btn btn-primary">Resultados</a>
+<a asp-action="Cadastrar" class="btn btn-primary">Cadastrar</a>
+<a asp-action="Usuarios" class="btn btn-primary">Usuários</a>

@@ -1,3 +1,8 @@
+@{
+    // Esse codigo captura a pagina que o usuario esta.
+    var actionAtual = ViewContext.RouteData.Values["action"].ToString();
+}
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -5,10 +10,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="/lib/bootstrap5/dist/css/bootstrap.css">
-    <title>Enquete</title>
+
+    @* Isso é uma variavel que a view passa para o layout.
+    No caso essa função esta esperando que a view passe um valor "Subtitulo" *@
+    <title>Enquete :: @ViewBag.Subtitulo</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">Controle de usuários</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavMain">
@@ -16,8 +24,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavMain">
             <div class="navbar-nav">
-                <a class="nav-link active" asp-action="Index">Principal</a>
-                <a class="nav-link" asp-action="Usuarios">Usuários</a>
+                @* Se o usuario esta na pagina, a classe css active vai ser passada para o codigo abaixo. *@
+                <a class="nav-link @(actionAtual == "Index" ? "active" : "")" asp-action="Index">Principal</a>
+                <a class="nav-link @(actionAtual == "Usuarios" ? "active" : "")" asp-action="Usuarios">Usuários</a>
+                <a class="nav-link @(actionAtual == "Cadastrar" ? "active" : "")" asp-action="Cadastrar">Cadrastro</a>
             </div>
             </div>
         </div>

@@ -15,6 +15,8 @@ namespace Realizacao_Enquetes.Controllers
     {
         public IActionResult Index()
         {
+            // Quando uma variavel é passada para a view e não é apenas cosmetica, isso deve ser feito pelo controller.
+            ViewBag.QtdeUsuarios = Usuario.Listagem.Count();
             return View();
         }
 

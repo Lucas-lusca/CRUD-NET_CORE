@@ -1,6 +1,11 @@
-@model Realizacao_Enquetes.Models.Usuario
+@model Usuario
 
-<h1 class="text-primary">Cadastro de Usuário</h1>
+@{
+    @* Passando para a o layout o valor da variavel Subtitulo dessa view. *@
+    ViewBag.Subtitulo = "Excluir";
+}
+
+<h1 class="text-primary">Excluir</h1>
 <hr>
 <h4>Deseja excluir o usuário <span class="text-danger">@Model.Nome?</span></h4>
 <form method="POST" class="w-25">
