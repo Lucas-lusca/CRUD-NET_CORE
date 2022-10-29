@@ -1,0 +1,17 @@
+@model Template_Minimo_Views_Models.Models.Usuario
+
+@{
+    Layout = "_Layout";
+}
+
+<h1 class="text-primary">Cadastro de Usuário</h1>
+<hr>
+<h4>Deseja excluir o usuário <span class="text-danger">@Model.Nome?</span></h4>
+<form method="POST" class="w-25">
+    @* Essa Input faz referencia ao ID do usuário, isso faz com que não seja dependa do ID passado na rota*@
+    <input type="hidden" asp-for="IdUsuario">
+    <div class="mt-3">
+        <a href="/Home/Usuarios" class="btn btn-light">Não</a>
+        <button class="btn btn-primary" type="submit">Sim</button>
+    </div>
+</form>

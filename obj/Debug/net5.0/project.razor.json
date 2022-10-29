@@ -15619,6 +15619,11 @@
   "RootNamespace": "Realizacao_Enquetes",
   "Documents": [
     {
+      "FilePath": "d:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\Views\\Home\\Cadastrar.cshtml",
+      "TargetPath": "Views\\Home\\Cadastrar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\Views\\Home\\Responder.cshtml",
       "TargetPath": "Views\\Home\\Responder.cshtml",
       "FileKind": "mvc"
@@ -15634,8 +15639,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\Views\\Shared\\_layout.cshtml",
+      "TargetPath": "Views\\Shared\\_layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\Views\\Home\\Usuarios.cshtml",
+      "TargetPath": "Views\\Home\\Usuarios.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\Views\\Home\\Resultado.cshtml",
       "TargetPath": "Views\\Home\\Resultado.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\WebCods\\EstudandoCS.NET\\CRUD_asp.net\\Views\\Home\\Excluir.cshtml",
+      "TargetPath": "Views\\Home\\Excluir.cshtml",
       "FileKind": "mvc"
     },
     {

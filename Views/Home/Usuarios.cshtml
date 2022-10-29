@@ -1,0 +1,38 @@
+@model IQueryable<Template_Minimo_Views_Models.Models.Usuario>
+
+@{
+    Layout = "_Layout";
+}
+
+<h1 class="text-primary">CRUD com ASP.NET Core 5</h1>
+<hr>
+<a href="/Home/Cadastrar" class="btn btn-primary">Novo Usuários</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td>@u.Nome</td>
+                <td>@u.Email</td>
+                <td>
+                    @*
+                        asp-action indica qual ação será aberta por esse link, 
+                    asp-rout-id é passado o ID para a rota. Isso é como se tivessemos 
+                    escrevendo na barra de navegação do navegador. 
+                    *@
+                    <a asp-action="Cadastrar" asp-route-id="@u.IdUsuario"
+                        class="btn btn-sm btn-secondary">Alterar</a>
+                    <a asp-action="Excluir" asp-route-id="@u.IdUsuario"
+                        class="btn btn-sm btn-danger">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

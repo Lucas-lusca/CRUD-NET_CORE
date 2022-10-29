@@ -1,22 +1,12 @@
-﻿<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="/lib/bootstrap5/dist/css/bootstrap.css">
-    <title>Enquete</title>
-</head>
-<body>
-    <div class="container">
-        <h1>Enquete</h1><br>
-        <h2>Quer participar da enquete?</h2>
+﻿@{
+    Layout = "_Layout";
+}
 
-        @* Saiba mais sobre TagHelpers: https://learn.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-6.0
-        asp-action é um tag helper, que abre a ação responder do controlador
-        desta view *@ 
-        <a asp-action="Responder" class="btn btn-primary">Sim!!!</a>
-        <a asp-action="Resultado" class="btn btn-primary">Resultados</a>
-    </div>
-</body>
-</html>
+<h1>Enquete</h1><br>
+<h2>Quer participar da enquete?</h2>
+
+@* Saiba mais sobre TagHelpers: https://learn.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-6.0
+asp-action é um tag helper, que abre a ação responder do controlador
+desta view *@ 
+<a asp-action="Responder" class="btn btn-primary">Sim!!!</a>
+<a asp-action="Resultado" class="btn btn-primary">Resultados</a>

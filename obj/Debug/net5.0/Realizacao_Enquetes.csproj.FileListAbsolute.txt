@@ -119,3 +119,4 @@ D:\WebCods\EstudandoCS.NET\CRUD_asp.net\obj\Debug\net5.0\ref\Realizacao_Enquetes
 D:\WebCods\EstudandoCS.NET\CRUD_asp.net\obj\Debug\net5.0\Realizacao_Enquetes.pdb
 D:\WebCods\EstudandoCS.NET\CRUD_asp.net\obj\Debug\net5.0\Realizacao_Enquetes.genruntimeconfig.cache
 D:\WebCods\EstudandoCS.NET\CRUD_asp.net\obj\Debug\net5.0\Realizacao_Enquetes.csproj.CopyComplete
+D:\WebCods\EstudandoCS.NET\CRUD_asp.net\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
