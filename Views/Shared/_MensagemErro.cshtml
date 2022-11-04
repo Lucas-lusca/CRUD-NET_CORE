@@ -1,0 +1,8 @@
+@model String
+@* Isso é um mini layout para coisas expecificas do site. *@
+
+<div class="alert alert-warning mt-3 alert-dismissible fade show" role="alert">
+    @* Onde esta este @Model é onde a mensagem que vier da view sera colocada. *@
+    @Model
+    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+</div>

@@ -16,6 +16,7 @@ namespace Realizacao_Enquetes.Controllers
         public IActionResult Index()
         {
             // Quando uma variavel é passada para a view e não é apenas cosmetica, isso deve ser feito pelo controller.
+            // ViewBag serve para definir uma varivel.
             ViewBag.QtdeUsuarios = Usuario.Listagem.Count();
             return View();
         }
@@ -83,7 +84,10 @@ namespace Realizacao_Enquetes.Controllers
         [HttpPost]
         public IActionResult Excluir(Usuario usuario)
         {
-            Usuario.Excluir(usuario.IdUsuario);
+            // Passando para a variavel Excluiu o resultado adquirido na model.
+            // E depois passando esse valor para view Usuarios.
+            // TempData uma vez que são lidos são apagados.
+            TempData["Excluiu"] = Usuario.Excluir(usuario.IdUsuario);
             return RedirectToAction("Usuarios");
         }
 

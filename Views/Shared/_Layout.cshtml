@@ -16,24 +16,44 @@
     <title>Enquete :: @ViewBag.Subtitulo</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Controle de usuários</a>
+            <a class="navbar-brand" href="#">
+                @* Se a view possue uma Section LogoPagina é executado a ação abaixo. *@
+                @if (IsSectionDefined("LogoPagina"))
+                {
+                    @RenderSection("LogoPagina", false)
+                }
+                else
+                {
+                    <img src="/img/pagina.png" height="24" class="d-inline-block align-text-bottom">
+                }
+                Controle de usuários
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavMain">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavMain">
             <div class="navbar-nav">
-                @* Se o usuario esta na pagina, a classe css active vai ser passada para o codigo abaixo. *@
+                @* Se o usuario esta na pagina, a classe css active vai ser passada para algum dos codigo abaixo. *@
                 <a class="nav-link @(actionAtual == "Index" ? "active" : "")" asp-action="Index">Principal</a>
                 <a class="nav-link @(actionAtual == "Usuarios" ? "active" : "")" asp-action="Usuarios">Usuários</a>
                 <a class="nav-link @(actionAtual == "Cadastrar" ? "active" : "")" asp-action="Cadastrar">Cadrastro</a>
             </div>
             </div>
         </div>
-    </nav>
+    </header>
     <div class="container mt-2">
+        @* ResnderBody é a parte do código que vai ser adicionada nas views. Importante. *@
         @RenderBody()
     </div>
+
+    <footer class="text-light bg-dark p-3 fixed-bottom text-center">
+        Todos os direitos reservados <br>
+        @RenderSection("Footer", false)
+    </footer>
+
+    @* Na view desejada é adicionado a Section selecionada, false quer dizer que não é obrigatório ter essa section na view. *@
+    @RenderSection("Scripts", false)
 </body>
 </html>

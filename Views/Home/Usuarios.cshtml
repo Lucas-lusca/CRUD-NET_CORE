@@ -8,6 +8,19 @@
 <h1 class="text-primary">CRUD com ASP.NET Core 5</h1>
 <hr>
 <a href="/Home/Cadastrar" class="btn btn-primary">Novo Usuários</a>
+@if (TempData.ContainsKey("Excluiu"))
+{
+    var excluiu = (bool)TempData["Excluiu"];
+    if(excluiu)
+    {
+        @* Importando o layout _Mensagem     e colocando o valor desejado nele. *@
+        <partial name="_MensagemInfo" model="@("Usuário excluído com sucesso.")"></partial>
+    }
+    else
+    {
+        <partial name="_MensagemErro" model="@("Não foi possível excluir o usuário.")"></partial>    
+    }
+}
 <table class="table">
     <thead>
         <tr>
@@ -37,3 +50,14 @@
         }
     </tbody>
 </table>
+
+@*  Cada view que importar algo podera mudalo de acordo com a necessidade. 
+    Importando a Section do layout *@
+@section Scripts{
+    @* Não esqueça de importar o JS do bootstrap 5 *@
+    <script src="/lib/bootstrap5/dist/js/bootstrap.js"></script>
+}
+
+@section LogoPagina{
+    <img src="/img/usuarios.png" height="24" class="d-inline-block align-text-bottom">
+}

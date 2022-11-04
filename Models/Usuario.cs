@@ -12,6 +12,7 @@ namespace Realizacao_Enquetes.Models
         public string Email {get; set;}
 
         private static List<Usuario> listagem = new List<Usuario>();
+        
         public static IQueryable<Usuario> Listagem
         {
             get
@@ -52,13 +53,17 @@ namespace Realizacao_Enquetes.Models
             }
         }
 
-        public static void Excluir(int idUsuario)
+        public static bool Excluir(int idUsuario)
         {
+
+            // Find procura algo em uma lista.
+            // Se idUsuario for igual ao ID selecionado para excluir, é retornado a função Remove, caso não, false.
             var usuarioExistente = Usuario.listagem.Find(u => u.IdUsuario == idUsuario);
             if (usuarioExistente != null)
             {
-                Usuario.listagem.Remove(usuarioExistente);
+                return Usuario.listagem.Remove(usuarioExistente);
             }
+            return false;
         }
     }
 }
